@@ -28,16 +28,16 @@ public class UserDao {
 			@Override
 			public void processRow(ResultSet arg0) throws SQLException {
 				// TODO Auto-generated method stub
-				rslt.setId(arg0.getInt(0));
-				rslt.setUsername(arg0.getString(1));
-				rslt.setPassword(arg0.getString(2));
-				rslt.setR1(arg0.getInt(3));
-				rslt.setR2(arg0.getInt(4));
-				rslt.setR3(arg0.getInt(5));
-				rslt.setR4(arg0.getInt(6));
-				rslt.setR5(arg0.getInt(7));
-				rslt.setR(arg0.getInt(8));
-				rslt.setRated_count(arg0.getInt(9));
+				rslt.setId(arg0.getInt(1));
+				rslt.setUsername(arg0.getString(2));
+				rslt.setPassword(arg0.getString(3));
+				rslt.setR1(arg0.getInt(4));
+				rslt.setR2(arg0.getInt(5));
+				rslt.setR3(arg0.getInt(6));
+				rslt.setR4(arg0.getInt(7));
+				rslt.setR5(arg0.getInt(8));
+				rslt.setR(arg0.getInt(9));
+				rslt.setRated_count(arg0.getInt(10));
 			}
 		});
 		return rslt;
